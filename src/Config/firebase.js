@@ -4,13 +4,13 @@ import {getAuth, GoogleAuthProvider} from "firebase/auth"
 import {getFirestore} from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAYB4pyWosyWSm_8CYaICMipqCMhybqv8w",
-  authDomain: "overlordproject-3c2e7.firebaseapp.com",
-  projectId: "overlordproject-3c2e7",
-  storageBucket: "overlordproject-3c2e7.firebasestorage.app",
-  messagingSenderId: "150720259847",
-  appId: "1:150720259847:web:11c21cd54384ca458e87a2",
-  measurementId: "G-T95VQBW7VC"
+  apiKey: "AIzaSyCQ5GW3-QRvkTDdrkoKns6RMKgyUyhium8",
+  authDomain: "overread-12.firebaseapp.com",
+  projectId: "overread-12",
+  storageBucket: "overread-12.firebasestorage.app",
+  messagingSenderId: "598990010163",
+  appId: "1:598990010163:web:77b9f536766593c6517046",
+  measurementId: "G-D2SP82D3ZX"
 };
 
 const app = initializeApp(firebaseConfig);
