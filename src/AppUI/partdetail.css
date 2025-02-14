@@ -1,0 +1,47 @@
+.partdetail-container {
+    width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    margin-top: 100px;
+}
+
+.partdetail-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: lightgoldenrodyellow;
+}
+
+.partdetail-content {
+    font-size: 18px;
+    color: #444;
+    text-align: justify;
+    padding: 20px;
+    background: lightyellow;
+    border-radius: 5px;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+    white-space: pre-wrap;  
+    word-wrap: break-word;  
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .partdetail-container {
+        padding: 20px;
+    }
+
+    .partdetail-title {
+        font-size: 24px;
+    }
+
+    .partdetail-content {
+        font-size: 16px;
+        padding: 15px;
+    }
+}

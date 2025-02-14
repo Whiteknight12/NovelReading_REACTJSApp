@@ -1,0 +1,53 @@
+.update-volume-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.uv-h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.uv-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.uv-input, .uv-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.uv-textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.uv-button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.uv-button:hover {
+    background: #0056b3;
+}
