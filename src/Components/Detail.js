@@ -62,7 +62,7 @@ export default function Detail() {
     const volumescollectionref=collection(db, "Volumes");
     const [vollist, setVollist]=useState([]);
     const GetVolList=async ()=>{
-        const q=query(volumescollectionref, where("BelongsTo", "==", decodedTitle));
+        const q=query(volumescollectionref, where("BelongsTo", "==", decodedTitle.trim()));
         const qsnapshot=await getDocs(q);
         if (!qsnapshot.empty) 
         {
