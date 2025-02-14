@@ -33,12 +33,12 @@ export default function Deletevolumeornovel() {
     const DeleteNovel=async (id)=>{
         const deletenovel=doc(db, "Novels", id);
         await deleteDoc(deletenovel);
-        navigate(0);
+        navigate("/");
     }
     const DeleteVolume=async (id)=>{
         const deletevolume=doc(db, "Volumes", id);
         await deleteDoc(deletevolume);
-        navigate(0);
+        navigate("/");
     }
     return (
         <div className="delete-container">

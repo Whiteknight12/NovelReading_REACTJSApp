@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import {db} from '../Config/firebase'
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
 import '../AppUI/updatevolume.css'
@@ -9,6 +9,7 @@ export default function UpdateVolume() {
     const [part, setPart]=useState("");
     const [content, setContent]=useState("");
     const [belongsto, setBelongsto]=useState("");
+    const navigate=useNavigate();
     const GetVolData=async()=>{
         const object=doc(db, "Volumes", volid);
         const trueobject=await getDoc(object);
@@ -29,6 +30,7 @@ export default function UpdateVolume() {
             BelongsTo: belongsto,
             Content: content
         })
+        navigate("/");
     }
   return (
     <div className="update-volume-container">

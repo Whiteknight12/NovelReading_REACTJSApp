@@ -36,7 +36,7 @@ export default function UpdateNovel() {
             ImgURL: imgurl,
             Summary: summary
         })
-        navigate(0);
+        navigate("/");
     }
     useEffect(()=>{
         GetNovelData();
